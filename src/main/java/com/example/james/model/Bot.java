@@ -1,4 +1,4 @@
-package com.example.james;
+package com.example.james.model;
 
 public class Bot {
 	private long id;
@@ -20,6 +20,11 @@ public class Bot {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Bot [id=" + id + ", name=" + name + "]";
 	}
 	
 	
